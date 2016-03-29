@@ -8,7 +8,7 @@ How To Use :
 
 First of all, define API key constant in config file. URL is already defined
 
-
+```php
 	public function sendGCM()
 	{
 
@@ -59,3 +59,4 @@ First of all, define API key constant in config file. URL is already defined
 		$this->gcm_notification->send();
 
 	}
+```
